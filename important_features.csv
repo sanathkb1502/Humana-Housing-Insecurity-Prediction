@@ -1,0 +1,90 @@
+Column name,SHAP,XG booster Feature Importance,Feature Description
+cons_homstat_Y,0, 0.05385 ,#N/A
+cms_disabled_ind,0, 0.02342 ,Binary indicator that a Medicare Supplement member is under age 65
+cms_ra_factor_type_cd_CN,0, 0.02127 ,#N/A
+total_outpatient_visit_ct_pmpm,0, 0.01750 ,visits per month for overall claims related to outpatient facilities in the past one year
+cms_low_income_ind,0, 0.01380 ,Binary indicator that a member is receiving a subsidy from CMS
+total_physician_office_allowed_pmpm_cost,0.058586583, 0.01320 ,allowed cost per month for overall claims related to physician office in the past one year
+total_physician_office_visit_ct_pmpm,0.008025129, 0.01254 ,visits per month for overall claims related to physician office in the past one year
+med_physician_office_ds_clm,0, 0.01169 ,days since last claim for non-behavioral health claims related to physician office in the past one year
+cmsd1_men_pmpm_ct,0, 0.01024 ,"claims per month related to mental, behavioral and neurodevelopmental disorders in the past one year {based on CMS diagnosis code level1}"
+cmsd2_skn_radiation_pmpm_ct,0, 0.00992 ,claims per month related to diseases of the skin and subcutaneous tissue : radiation-related disorders of the skin and subcutaneous tissue in the past one year {based on CMS diagnosis code level2}
+cons_mobplus_U,0, 0.00983 ,#N/A
+cms_frailty_ind,0, 0.00933 ,"Binary indicator that a member is deemed frail {specific diagnoses, multiple serious chronic conditions, functional impairments or other factors}"
+est_age,0, 0.00889 ,"Member age {calculated using est_bday, relative to score/index date}"
+cms_orig_reas_entitle_cd_1.0,0, 0.00872 ,#N/A
+rev_pm_ivtrp_pmpm_cd_ct,0, 0.00868 ,claim lines per month for a revenue code related to intravenous therapy in the past one year
+med_outpatient_ds_clm,0.3782772, 0.00815 ,days since last claim for non-behavioral health claims related to outpatient facilities in the past one year
+cms_ra_factor_type_cd_E,0, 0.00790 ,#N/A
+rev_pm_raddia_pmpm_cd_ct,0, 0.00777 ,claim lines per month for a revenue code related to radiology - diagnostic in the past one year
+total_outpatient_ds_clm,0.003285597, 0.00741 ,days since last claim for overall claims related to outpatient facilities in the past one year
+rev_pm_asc_pmpm_cd_ct,0, 0.00735 ,claim lines per month for a revenue code related to ambulatory surgical care in the past one year
+rx_nonmail_pmpm_ct,0, 0.00697 ,count per month of prescriptions related to non mail drugs in the past one year
+atlas_totalocchu,0.000114537, 0.00685 ,Total number of occupied housing units
+cms_race_cd_1,0, 0.00674 ,#N/A
+rx_days_since_last_script,0.003345899, 0.00667 ,days since last prescription in the past one year
+rx_hum_75_pmpm_ct,0, 0.00655 ,count per month of prescriptions related to PAIN MGMT - MUSCLE RELAXANTS drugs in the past one year {Based on Humana drug classification}
+cnt_cp_emails_10,0, 0.00654 ,count per month of member interactions via emails with a lag of _10 from the score date in the past one year
+rx_tier_2_pmpm_ct,0, 0.00633 ,count per month of prescriptions related to Tier 2 drugs in the past one year
+rx_maint_pmpm_cost,0, 0.00631 ,cost per month of prescriptions related to maintenance drugs in the past one year
+total_bh_allowed_pmpm_cost,0.000434045, 0.00621 ,allowed cost per month for behavioral health claims in the past one year
+total_med_allowed_pmpm_cost,0.023610266, 0.00618 ,allowed cost per month for non-behavioral health claims in the past one year
+bh_ip_snf_allowed_pmpm_cost,0.17083311, - ,allowed cost per month for behavioral health claims related to skilled nursing inpatient facilities in the past one year
+total_ip_ltach_admit_days_pmpm,0.117319465, - ,admitted days per month for overall claims related to long term acute hospitalization inpatient facilities in the past one year
+rx_hum_50_pmpm_cost,0.09979317, - ,cost per month of prescriptions related to IMMUNE SUPPRESSANTS drugs in the past one year {Based on Humana drug classification}
+cnt_cp_vat_5,0.08932119, 0.00346 ,count per month of member interactions via vat with a lag of _5 from the score date in the past one year
+cmsd1_skn_pmpm_ct,0.08624442, 0.00086 ,claims per month related to diseases of the skin and subcutaneous tissue in the past one year {based on CMS diagnosis code level1}
+rx_hum_31_pmpm_ct,0.08252694, - ,count per month of prescriptions related to DERMATOLOGY - ACNE drugs in the past one year {Based on Humana drug classification}
+cmsd2_skn_papulosquamous_pmpm_ct,0.07147397, 0.00378 ,claims per month related to diseases of the skin and subcutaneous tissue : papulosquamous disorders in the past one year {based on CMS diagnosis code level2}
+cnt_cp_vat_pmpm_ct,0.057934884, 0.00303 ,count per month of member interactions via vat in the past one year
+cmsd2_bld_hemorrhagic_pmpm_ct,0.04563802, 0.00466 ,"claims per month related to diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism : coagulation defects, purpura and other hemorrhagic conditions in the past one year {based on CMS diagnosis code level2}"
+cmsd2_vco_genetic_pmpm_ct,0.044190247, - ,claims per month related to factors influencing health status and contact with health services : genetic carrier and genetic susceptibility to disease in the past one year {based on CMS diagnosis code level2}
+cci_ctd_pmpm_ct,0.041860312, - ,count per month of claims related to connective tissue disease in the past one year {Based on Charlson Comorbidity Index Categories}
+rx_hum_69_pmpm_cost,0.03984572, - ,cost per month of prescriptions related to OPHTHALMOLOGY - GLAUCOMA AGENTS drugs in the past one year {Based on Humana drug classification}
+rx_hum_77_pmpm_ct,0.03981522, - ,count per month of prescriptions related to PAIN MGMT - NSAID AGENTS drugs in the past one year {Based on Humana drug classification}
+cmsd2_end_dm_pmpm_ct,0.038344424, - ,"claims per month related to endocrine, nutritional and metabolic diseases : diabetes mellitus in the past one year {based on CMS diagnosis code level2}"
+cmsd2_sns_fluid_pmpm_ct,0.033571452, - ,"claims per month related to symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified : abnormal findings on examination of other body fluids, substances and tissues, without diagnosis in the past one year {based on CMS diagnosis code level2}"
+bh_physician_office_allowed_pmpm_cost,0.032981113, - ,allowed cost per month for behavioral health claims related to physician office in the past one year
+cmsd2_inj_knee/leg_pmpm_ct,0.02454036, - ,"claims per month related to injury, poisoning and certain other consequences of external causes : injuries to the knee and lower leg in the past one year {based on CMS diagnosis code level2}"
+rev_pm_dialys_pmpm_cd_ct,0.024351524, - ,claim lines per month for a revenue code related to renal dialysis in the past one year
+cmsd2_inj_frostbite_pmpm_ct,0.022272678, - ,"claims per month related to injury, poisoning and certain other consequences of external causes : frostbite in the past one year {based on CMS diagnosis code level2}"
+cmsd2_pre_obstetric_pmpm_ct,0.02216776, - ,"claims per month related to pregnancy, childbirth and the puerperium : other obstetric conditions, not elsewhere classified in the past one year {based on CMS diagnosis code level2}"
+cmsd1_end_pmpm_ct,0.02189692, 0.00103 ,"claims per month related to endocrine, nutritional and metabolic diseases in the past one year {based on CMS diagnosis code level1}"
+cmsd2_end_malnut_pmpm_ct,0.021600958, - ,"claims per month related to endocrine, nutritional and metabolic diseases : malnutrition in the past one year {based on CMS diagnosis code level2}"
+cmsd2_end_metabolic_pmpm_ct,0.020306015, 0.00474 ,"claims per month related to endocrine, nutritional and metabolic diseases : metabolic disorders in the past one year {based on CMS diagnosis code level2}"
+rx_hum_49_pmpm_cost,0.01975563, - ,cost per month of prescriptions related to IMMUNE GLOBULIN AGENTS drugs in the past one year {Based on Humana drug classification}
+cmsd2_pre_pre_supervision_pmpm_ct,0.018562624, - ,"claims per month related to pregnancy, childbirth and the puerperium : supervision of high risk pregnancy in the past one year {based on CMS diagnosis code level2}"
+rx_hum_38_pmpm_ct,0.01784089, - ,count per month of prescriptions related to FERTILITY drugs in the past one year {Based on Humana drug classification}
+cmsd2_unc_new_disease_pmpm_ct,0.017716879, - ,claims per month related to codes for special purposes : provisional assignment of new diseases of uncertain etiology or emergency use in the past one year {based on CMS diagnosis code level2}
+rwjf_hiv_rate,0.01719081, 0.00554 ,Health Outcomes - HIV prevalence
+rx_hum_52_pmpm_ct,0.013391079, 0.00411 ,count per month of prescriptions related to MENTAL HEALTH drugs in the past one year {Based on Humana drug classification}
+total_ambulance_visit_ct_pmpm,0.012969141, 0.00369 ,visits per month for overall claims related to ambulance place of treatment in the past one year
+cmsd2_inj_drugs_pmpm_ct,0.011991757, 0.00359 ,"claims per month related to injury, poisoning and certain other consequences of external causes : poisoning by, adverse effect of and underdosing of drugs, medicaments and biological substances in the past one year {based on CMS diagnosis code level2}"
+rx_otc_pmpm_cost,0.011597742, 0.00440 ,cost per month of prescriptions related to over the counter drugs in the past one year
+cnt_cp_webstatement_6,0.010117115, 0.00271 ,count per month of member interactions via webstatement with a lag of _6 from the score date in the past one year
+cmsd2_dig_oral_pmpm_ct,0.01008734, 0.00445 ,claims per month related to diseases of the digestive system : diseases of oral cavity and salivary glands in the past one year {based on CMS diagnosis code level2}
+atlas_age65andolderpct2010,0.00837558, 0.00448 ,Percent of population 65 or older
+rx_specialty_ntwk_pmpm_cost,0.007585546, 0.00380 ,cost per month of prescriptions related to specialty drugs in the past one year
+cmsd2_mus_lesions_other_pmpm_ct,0.007541597, 0.00468 ,"claims per month related to diseases of the musculoskeletal system and connective tissue : biomechanical lesions, not elsewhere classified in the past one year {based on CMS diagnosis code level2}"
+prov_line_pmpm_cnt,0.007337214, 0.00366 ,"count per month of distinct provider lines in the past one year {Based on provider line(FB-facility, PC-primary care, SP-specialist)}"
+cmsd2_inf_bact_other_pmpm_ct,0.007063934, 0.00118 ,claims per month related to certain infectious and parasitic diseases : other bacterial diseases in the past one year {based on CMS diagnosis code level2}
+cnt_cp_vat_9,0.00669216, 0.00305 ,count per month of member interactions via vat with a lag of _9 from the score date in the past one year
+rx_hum_80_pmpm_ct,0.006515899, 0.00307 ,count per month of prescriptions related to RESPIRATORY - ALPHA-1INHIBITORS drugs in the past one year {Based on Humana drug classification}
+cmsd2_can_in_situ_neo_pmpm_ct,0.006279727, 0.00272 ,claims per month related to neoplasms : in situ neoplasms in the past one year {based on CMS diagnosis code level2}
+cmsd2_ear_ear_other_pmpm_ct,0.0061674, 0.00404 ,claims per month related to diseases of the ear and mastoid process : other disorders of ear in the past one year {based on CMS diagnosis code level2}
+cnt_cp_vat_7,0.00576119, 0.00177 ,count per month of member interactions via vat with a lag of _7 from the score date in the past one year
+cmsd2_ext_nature_pmpm_ct,0.004746131, 0.00513 ,claims per month related to external causes of morbidity : exposure to forces of nature in the past one year {based on CMS diagnosis code level2}
+rwjf_air_pollute_density,0.004097226, 0.00450 ,Physical Environment - Average daily density of fine particulate matter in micrograms per cubic meter (PM2.5)
+rx_hum_71_pmpm_ct,0.002158725, 0.00264 ,count per month of prescriptions related to OPHTHALMOLOGY - STEROID AGENTS drugs in the past one year {Based on Humana drug classification}
+total_physician_office_ds_clm,0.001795505, 0.00280 ,days since last claim for overall claims related to physician office in the past one year
+cnt_cp_emails_6,0.001785511, 0.00125 ,count per month of member interactions via emails with a lag of _6 from the score date in the past one year
+cnt_cp_emails_3,0.001784233, 0.00394 ,count per month of member interactions via emails with a lag of _3 from the score date in the past one year
+cmsd2_res_res_other_pmpm_ct,0.001232282, 0.00219 ,claims per month related to diseases of the respiratory system : other diseases of the respiratory system in the past one year {based on CMS diagnosis code level2}
+total_outpatient_allowed_pmpm_cost,0.001201935, 0.00510 ,allowed cost per month for overall claims related to outpatient facilities in the past one year
+atlas_orchard_farms12,0.001004788, 0.00463 ,Orchard farms
+cmsd2_mus_bone_pmpm_ct,0.000969362, 0.00429 ,claims per month related to diseases of the musculoskeletal system and connective tissue : disorders of bone density and structure in the past one year {based on CMS diagnosis code level2}
+rx_hum_19_pmpm_cost,0.000863436, 0.00321 ,cost per month of prescriptions related to CHEMOTHERAPY - ANTIANDROGENS drugs in the past one year {Based on Humana drug classification}
+rx_hum_29_pmpm_cost,0.000726473, 0.00267 ,cost per month of prescriptions related to COUGH/ COLD/ ALLERGY drugs in the past one year {Based on Humana drug classification}
+rx_nonbh_pmpm_ct,0.00067331, 0.00420 ,count per month of prescriptions related to non behavioral health drugs in the past one year
+cmsd2_end_obese_pmpm_ct,0.000486496, 0.00093 ,"claims per month related to endocrine, nutritional and metabolic diseases : overweight, obesity and other hyperalimentation in the past one year {based on CMS diagnosis code level2}"
+cmsd1_ner_pmpm_ct,0.000350306, 0.00271 ,claims per month related to diseases of the nervous system in the past one year {based on CMS diagnosis code level1}
